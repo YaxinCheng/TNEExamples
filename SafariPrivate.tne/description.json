@@ -1,0 +1,9 @@
+{
+    "name": "Safari",
+    "keyword": "safari",
+    "content": "Open a private window in Safari",
+    "argLowerBound": 0,
+    "argUpperBound": 0,
+    "priority": "low",
+    "icon": "/Applications/Safari.app/Contents/Resources/compass.icns"
+}

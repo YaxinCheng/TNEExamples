@@ -1,0 +1,7 @@
+{
+    "name": "UPS",
+    "content": "Track %@ on UPS",
+    "keyword": "track",
+    "argLowerBound": 1,
+    "argUpperBound": 1
+}

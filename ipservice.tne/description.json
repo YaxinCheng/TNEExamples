@@ -1,0 +1,8 @@
+{
+    "name": "IP Check",
+    "keyword": "ip",
+    "content": "Check the ip information of %@",
+    "placeholder": "",
+    "argLowerBound": 1,
+    "argUpperBound": 1
+}

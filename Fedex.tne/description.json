@@ -1,0 +1,7 @@
+{
+    "name": "Canada Post",
+    "content": "Track %@ on Fedex",
+    "keyword": "track",
+    "argLowerBound": 1,
+    "argUpperBound": 1
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Time Machine Functions",
+    "keyword": "tm",
+    "content": "Time Machine functions",
+    "icon": "/Applications/Time Machine.app/Contents/Resources/backup.icns",
+    "argLowerBound": 1,
+    "argUpperBound": 1
+}

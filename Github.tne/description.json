@@ -1,0 +1,6 @@
+{
+    "name": "GitHub Search",
+    "content": "Search %@ on GitHub",
+    "keyword": "github",
+    "argLowerBound": 1
+}

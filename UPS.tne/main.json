@@ -1,0 +1,3 @@
+{
+    "URLTemplate": "https://wwwapps.ups.com/WebTracking/track?track.x=Track&trackNums=%@"
+}

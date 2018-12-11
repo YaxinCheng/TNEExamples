@@ -1,0 +1,4 @@
+{
+    "URLTemplate": "https://flightaware.com/live/flight/%@",
+    "inputFormat": "[a-z]{2}\\d{3,4}"
+}

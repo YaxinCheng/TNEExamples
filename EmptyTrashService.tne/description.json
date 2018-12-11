@@ -1,0 +1,9 @@
+{
+    "name": "Empty Trash",
+    "keyword": "empty",
+    "content": "Empty your trash instantly",
+    "argLowerBound": 0,
+    "argUpperBound": 0,
+    "icon": "/System/Library/CoreServices/Dock.app/Contents/Resources/trashfull@2x.png",
+    "icon_dark": "/System/Library/CoreServices/Dock.app/Contents/Resources/trashfull2@2x.png"
+}

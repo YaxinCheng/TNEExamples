@@ -1,0 +1,7 @@
+{
+    "name": "Flight Tools",
+    "content": "Search flight infomation about \"%@\"",
+    "keyword": "flight",
+    "argLowerBound": 1,
+    "argUpperBound": 1
+}

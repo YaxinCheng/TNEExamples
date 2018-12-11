@@ -1,0 +1,7 @@
+{
+    "name": "French Conjugation",
+    "content": "Search conjugation for word \"%@\"",
+    "keyword": "fr",
+    "argLowerBound": 1,
+    "argUpperBound": 1
+}

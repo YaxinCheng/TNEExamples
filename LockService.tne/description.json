@@ -1,0 +1,7 @@
+{
+    "name": "Lock Screen",
+    "keyword": "lock",
+    "content": "Lock your Mac",
+    "argLowerBound": 0,
+    "argUpperBound": 0
+}

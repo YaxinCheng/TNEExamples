@@ -1,0 +1,8 @@
+{
+    "name": "Screen Saver",
+    "keyword": "lock",
+    "content": "Lock your Mac & Launch Screen Saver",
+    "icon": "/System/Library/PreferencePanes/DesktopScreenEffectsPref.prefPane/Contents/Resources/DesktopScreenEffectsPref.icns",
+    "argLowerBound": 0,
+    "argUpperBound": 0
+}

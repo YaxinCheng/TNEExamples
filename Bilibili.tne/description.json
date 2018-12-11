@@ -1,0 +1,6 @@
+{
+    "name": "Bilibili",
+    "content": "Search %@ on Bilibili",
+    "keyword": "bili",
+    "argLowerBound": 1
+}
