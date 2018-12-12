@@ -32,6 +32,8 @@ Inside the main.py, this is where you defines your extension. Two functions shou
 #		- name: displayed as the option name
 #		- content: displayed as the content
 #		- innerItem: the object that will be served
+#	Optional keys:
+#		- alterContent: the content displayed when cmd key is pressed
 def supply(inputVal: List[str]) -> Dict[str, str]
 
 # Serve is called when user clicked Enter on certain option. This function should react on what user has selected (e.g. if it is an URL, then open the URL in the browser)
@@ -53,6 +55,29 @@ For detailed examples, check: **LockService.tne** and **SafariPrivate.tne**
 Main.json is a special case, where you only put an URL template inside with some inputFormat regex (optional). Then Tonnerre will complete the URL based on user input, and open the url when user clicked **Enter**.
 
 For detailed examples, check: **Flight.tne** and **UPS.tne**
+
+### description.json
+
+`description.json` represents the information for Tonnerre to display it as an option. The keys are listed below:
+
+- name (string)
+  - Mandatory. Displayed at the name label
+- content (string)
+  - Mandatory. Displayed at the content label. If you have %@ in your content, the user input will be filled in here. You can have multiple %@ in one content string
+- keyword (string)
+  - Mandatory. The keyword defines what the first word should be for user to trigger this option.
+- argLowerBound (int)
+  - Optional. It defines how many query requests are followed by the keyword to finally trigger the `supply` function
+  - If not set, Tonnerre will consider it as **0**
+- argUpperBound (int)
+  - Optional. It defines how many query requests can be accepted by this option for the `supply` function. Once user enters more than the upper bound, this option will not be called
+  - If not set, Tonnerre will consider it as **infinity** 
+- icon (string)
+  - Optional. It should be an URL string pointing to an icon file
+  - If not set, Tonnerre will use `icon.png` in  the TNE Script instead
+- icon_dark (string)
+  - Optional. It should be an URL string pointing to an icon file
+  - If not set, Tonnerre will use `icon_dark.png` in the TNE Script instead
 
 ## Create a TNE
 
